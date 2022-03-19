@@ -347,7 +347,7 @@ nav .container {
   padding: 0.9rem 1.2rem;
   color: var(--dark-one);
   font-size: 1.05rem;
-  background-color: #ecebeba1;
+  /* background-color: #ecebeba1; */
   border-radius: 2rem;
   border-bottom-left-radius: 0rem;
   padding: 0.9rem 2.1rem;
@@ -355,10 +355,10 @@ nav .container {
   text-transform: uppercase;
   font-weight: 500;
   line-height: 1;
-  box-shadow: -2px -2px 6px rgb(255 255 255),
+  /* box-shadow: -2px -2px 6px rgb(255 255 255),
     2px 2px 6px rgb(129 154 181 / 43%);
   transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out; */
 }
 
 .links a.active {
