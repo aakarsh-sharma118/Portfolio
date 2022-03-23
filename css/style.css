@@ -464,6 +464,7 @@ nav.open .links {
   background-position-y: 30% !important;
   -webkit-background-clip: text;
   animation: water 15s infinite;
+  -webkit-animation: water 15s infinite;
 }
 
 @keyframes water {
@@ -473,6 +474,16 @@ nav.open .links {
 
   to {
     background-position: left 1000px top 0;
+  }
+}
+
+@-webkit-keyframes water {
+  from {
+    -webkit-background-position: left 0 top 0;
+  }
+
+  to {
+    -webkit-background-position: left 1000px top 0;
   }
 }
 
